@@ -44,8 +44,6 @@ function whiteBalance(kelvin) {
         }\
     ');
 
-    console.log("HELLO FROM GL");
-
     simpleShader.call(this, gl.kelvin, {
         whitebal: [rgb_from_kel.r,rgb_from_kel.g,rgb_from_kel.b]
     });
